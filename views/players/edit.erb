@@ -1,0 +1,16 @@
+<h2>Edit Player</h2>
+<br/>
+<form action="/players/<%= @player.id %>" method="post">
+ <div class="form-group">
+  <input type="hidden" name="_method" value="put" />
+  <label for="player_code">Code:</label>
+  <br>
+  <input id="player_code" class="form-control" name="player[code]" type="text" value="<%=h @player.code %>" />
+ </div>
+ <div class="form-group">
+  <label for="player_name">Name:</label>
+  <br>
+  <input id="player_name" class="form-control" name="player[name]" type="text" value="<%=h @player.name %>" />
+ </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form>

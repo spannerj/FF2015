@@ -1,0 +1,8 @@
+<ul>
+<% @players.each do |player| %>
+ <li>
+   <h4><a href="/players/<%= player.id %>"><%=h player.name %></a></h4>
+   <p>Created: <%=h player.created_at %></p>
+ </li>
+<% end %>
+</ul>
