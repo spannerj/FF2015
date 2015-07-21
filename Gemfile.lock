@@ -1,5 +1,5 @@
 GEM
-  remote: https://rubygems.org/
+  remote: http://rubygems.org/
   specs:
     activemodel (4.0.1)
       activesupport (= 4.0.1)
@@ -23,6 +23,7 @@ GEM
     minitest (4.7.5)
     multi_json (1.8.2)
     pg (0.17.0)
+    pg (0.17.0-x86-mingw32)
     rack (1.5.2)
     rack-protection (1.5.1)
       rack
@@ -44,6 +45,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   activerecord
