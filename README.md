@@ -1,4 +1,4 @@
-## yo!
+## I will change this at some point as it doesn't make sense really
 
 This is just a simple blog, which uses Sinatra + PostgreSQL + Heroku + ActiveRecord + Tux + Bootstrap: [http://sinatra-sings.herokuapp.com/](http://sinatra-sings.herokuapp.com/)
 
@@ -16,5 +16,4 @@ This is just a simple blog, which uses Sinatra + PostgreSQL + Heroku + ActiveRec
 
 Then open [http://localhost:4567/](http://localhost:4567/)
 
-Fork. Star. Applaud. Build.
 
